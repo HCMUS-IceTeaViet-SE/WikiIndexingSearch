@@ -8,12 +8,12 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 
 /**
- * Created by Genius Doan on 4/20/2017.
+ * Created by Genius Doan on 4/20/2017.E:\\Lucene\\Index
  */
 public class LuceneTester {
 
-    String indexDir = "E:\\Lucene\\Index";
-    String dataDir = "E:\\Lucene\\Data";
+    String indexDir = "\\res\\index";
+    String dataDir = "\\res\\data";
     Indexer indexer;
     Searcher searcher;
 
@@ -42,5 +42,15 @@ public class LuceneTester {
                     + doc.get(LuceneConstants.FILE_PATH));
         }
         searcher.close();
+    }
+
+    public void setDataDirectory(String path)
+    {
+        this.dataDir = path;
+    }
+
+    public void setIndexDirectory(String path)
+    {
+        this.indexDir = path;
     }
 }

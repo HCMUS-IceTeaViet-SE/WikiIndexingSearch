@@ -26,6 +26,9 @@ import java.util.Date;
 
 /**
  * Simple command-line based search demo.
+ * This is example from another source
+ *
+ * @see Searcher
  */
 public class SearchFiles {
 

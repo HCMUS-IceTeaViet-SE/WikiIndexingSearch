@@ -20,9 +20,9 @@ import org.apache.lucene.util.Version;
 
 /**
  * Created by Genius Doan on 4/20/2017.
+ * @see IndexFiles
  */
 public class Indexer {
-
     private IndexWriter writer;
     private Analyzer analyzer = new StandardAnalyzer();
 
@@ -59,7 +59,7 @@ public class Indexer {
         Document document = new Document();
 
         //index file contents
-        Field contentField = new Field(LuceneConstants.CONTENTS, new FileReader(file));
+        Field contentField = new StoredField(LuceneConstants.CONTENTS, file.getName()   );
         //index file name
         Field fileNameField = new StoredField(LuceneConstants.FILE_NAME, file.getName());
         //index file path

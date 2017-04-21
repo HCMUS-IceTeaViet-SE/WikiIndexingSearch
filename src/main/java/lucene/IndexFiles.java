@@ -21,6 +21,9 @@ import java.util.Date;
 
 /**
  * Created by Genius Doan on 4/21/2017.
+ * This is example from another source
+ *
+ * @see Indexer
  */
 public class IndexFiles {
 

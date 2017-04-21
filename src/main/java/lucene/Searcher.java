@@ -20,6 +20,7 @@ import org.apache.lucene.util.Version;
 
 /**
  * Created by Genius Doan on 4/20/2017.
+ * @see SearchFiles
  */
 public class Searcher {
 
