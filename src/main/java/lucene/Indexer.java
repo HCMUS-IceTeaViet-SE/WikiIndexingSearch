@@ -20,6 +20,7 @@ import org.apache.lucene.util.Version;
 
 /**
  * Created by Genius Doan on 4/20/2017.
+ * This is the main class to index files.
  * @see IndexFiles
  */
 public class Indexer {
@@ -82,6 +83,9 @@ public class Indexer {
             throws IOException {
         //get all files in the data directory
         File[] files = new File(dataDirPath).listFiles();
+
+        if (files == null)
+            files = new File[0];
 
         for (File file : files) {
             if(!file.isDirectory()

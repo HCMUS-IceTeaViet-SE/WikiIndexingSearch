@@ -14,8 +14,8 @@ public class Application
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-            tester.createIndex();
-            tester.search("Mohan");
+            tester.createIndex(); //Create index files and write to indexed folder
+            tester.search("RN3");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {

@@ -8,12 +8,13 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 
 /**
- * Created by Genius Doan on 4/20/2017.E:\\Lucene\\Index
+ * Created by Genius Doan on 4/20/2017.
+ * Use to test feature of other class.
  */
 public class LuceneTester {
 
-    String indexDir = "\\res\\index";
-    String dataDir = "\\res\\data";
+    String indexDir = "./src/main/res/indexed";
+    String dataDir = "./src/main/res/data";
     Indexer indexer;
     Searcher searcher;
 
