@@ -1,15 +1,12 @@
 package main.java.lucene;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.CorruptIndexException;
-import org.apache.lucene.index.DirectoryReader;
-import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.QueryParser;
+
+import org.apache.lucene.queryParser.ParseException;
+import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
@@ -17,6 +14,9 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * Created by Genius Doan on 4/20/2017.
@@ -27,20 +27,18 @@ public class Searcher {
 
     IndexSearcher indexSearcher;
     QueryParser queryParser;
-    Analyzer analyzer = new StandardAnalyzer();
+    Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
     Query query;
-    DirectoryReader reader;
 
     public Searcher(String indexDirectoryPath)
             throws IOException {
         Directory indexDirectory =
-                FSDirectory.open(new File(indexDirectoryPath).toPath());
-        reader = DirectoryReader.open(indexDirectory);
-        indexSearcher = new IndexSearcher(reader);
-        queryParser = new QueryParser(LuceneConstants.CONTENTS, analyzer);
+                FSDirectory.open(new File(indexDirectoryPath));
+        indexSearcher = new IndexSearcher(indexDirectory);
+        queryParser = new QueryParser(Version.LUCENE_36, LuceneConstants.CONTENTS, analyzer);
     }
 
-    public TopDocs search( String searchQuery)
+    public TopDocs search(String searchQuery)
             throws IOException, ParseException {
         query = queryParser.parse(searchQuery);
         return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
@@ -52,6 +50,6 @@ public class Searcher {
     }
 
     public void close() throws IOException {
-        reader.close();
+        indexSearcher.close();
     }
 }

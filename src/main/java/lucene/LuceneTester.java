@@ -1,11 +1,11 @@
 package main.java.lucene;
 
-import java.io.IOException;
-
 import org.apache.lucene.document.Document;
-import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
+
+import java.io.IOException;
 
 /**
  * Created by Genius Doan on 4/20/2017.
@@ -41,6 +41,7 @@ public class LuceneTester {
             Document doc = searcher.getDocument(scoreDoc);
             System.out.println("File: "
                     + doc.get(LuceneConstants.FILE_PATH));
+
         }
         searcher.close();
     }

@@ -1,16 +1,9 @@
 package main.java.lucene;
 
-import java.io.File;
-import java.io.FileFilter;
-import java.io.FileReader;
-import java.io.IOException;
-
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
-import org.apache.lucene.document.StoredField;
-import org.apache.lucene.document.StringField;
 import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
@@ -18,39 +11,26 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
+import java.io.File;
+import java.io.FileFilter;
+import java.io.FileReader;
+import java.io.IOException;
+
 /**
- * Created by Genius Doan on 4/20/2017.
  * This is the main class to index files.
- * @see IndexFiles
  */
 public class Indexer {
     private IndexWriter writer;
-    private Analyzer analyzer = new StandardAnalyzer();
 
     public Indexer(String indexDirectoryPath) throws IOException {
         //this directory will contain the indexes
         Directory indexDirectory =
-                FSDirectory.open(new File(indexDirectoryPath).toPath());
+                FSDirectory.open(new File(indexDirectoryPath));
 
         //create the indexer
-        IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-        if (true) {
-            // Create a new index in the directory, removing any
-            // previously indexed documents:
-            iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-        } else {
-            // Add new documents to an existing index:
-            iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
-        }
-
-        // Optional: for better indexing performance, if you
-        // are indexing many documents, increase the RAM
-        // buffer.  But if you do this, increase the max heap
-        // size to the JVM (eg add -Xmx512m or -Xmx1g):
-        //
-        // iwc.setRAMBufferSizeMB(256.0);
-        writer = new IndexWriter(indexDirectory, iwc);
+        writer = new IndexWriter(indexDirectory,new StandardAnalyzer(Version.LUCENE_36),true, IndexWriter.MaxFieldLength.LIMITED);
     }
+
 
     public void close() throws CorruptIndexException, IOException {
         writer.close();
@@ -60,11 +40,12 @@ public class Indexer {
         Document document = new Document();
 
         //index file contents
-        Field contentField = new StoredField(LuceneConstants.CONTENTS, file.getName()   );
+        Field contentField = new Field(LuceneConstants.CONTENTS, new FileReader(file));
         //index file name
-        Field fileNameField = new StoredField(LuceneConstants.FILE_NAME, file.getName());
+        Field fileNameField = new Field(LuceneConstants.FILE_NAME, file.getName(), Field.Store.YES, Field.Index.NOT_ANALYZED);
+
         //index file path
-        Field filePathField = new StringField(LuceneConstants.FILE_PATH,  file.getCanonicalPath(),Field.Store.YES);
+        Field filePathField = new Field(LuceneConstants.FILE_PATH,  file.getCanonicalPath(), Field.Store.YES, Field.Index.NOT_ANALYZED);
 
         document.add(contentField);
         document.add(fileNameField);

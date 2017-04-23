@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lucene-core-3.6.0">
+    <CLASSES>
+      <root url="jar://D:/lucene-core-3.6.0.jar!/" />
+      <root url="jar://D:/lucene-queryparser-3.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
