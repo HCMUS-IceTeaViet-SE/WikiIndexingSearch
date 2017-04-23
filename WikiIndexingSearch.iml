@@ -44,5 +44,25 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="lucene-core-3.6.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/lucene-queryparser-3.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="jar://$MODULE_DIR$/libs/lucene-queryparser-3.6.2.jar!/" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/lucene-core-3.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="jar://$MODULE_DIR$/libs/lucene-core-3.6.0.jar!/" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
