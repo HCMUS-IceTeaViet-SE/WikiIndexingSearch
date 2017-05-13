@@ -2,86 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f11130-40c0-49c7-be07-41cc938457c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/pending_segments_5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/segments_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/write.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/10.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/11.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/12.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/13.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/14.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/15.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/16.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/17.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/18.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/19.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/21.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/24.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/25.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/26.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/27.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.frq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.nrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.prx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.tii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.tis" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments.gen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments_4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/10.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/11.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/12.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/13.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/14.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/15.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/16.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/17.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/18.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/19.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/21.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/24.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/25.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/26.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/27.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.frq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.nrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.prx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.tii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.tis" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.cfe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.si" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments.gen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments_4" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,16 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikiIndexingSearch.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WikiIndexingSearch.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -157,7 +68,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuceneConstants.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LuceneConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
@@ -190,51 +111,50 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8687">
-              <caret line="511" column="57" lean-forward="false" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
+            <state relative-caret-position="7293">
+              <caret line="429" column="57" lean-forward="false" selection-start-line="429" selection-start-column="57" selection-end-line="429" selection-end-column="57" />
               <folding>
-                <marker date="1494693005050" expanded="true" signature="192:214" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75640:75657" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75640:75675" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75640:75688" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75640:75703" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75738:78256" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75751:78241" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75805:76100" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75824:76085" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75887:76065" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75927:76031" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="75948:76009" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76150:76477" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76169:76462" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76264:76442" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76304:76408" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76325:76386" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76528:76793" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76547:76778" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76580:76758" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76620:76724" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76641:76702" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76836:77142" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76855:77127" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76929:77107" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76969:77073" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="76990:77051" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77193:77514" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77212:77499" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77301:77479" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77341:77445" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77362:77423" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77549:77855" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77568:77840" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77642:77820" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77682:77786" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77703:77764" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77907:78227" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="77926:78212" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="78014:78192" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="78054:78158" ph="..." />
-                <marker date="1494693005050" expanded="true" signature="78075:78136" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66140:66157" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66140:66175" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66140:66188" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66140:66203" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66238:68756" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66251:68741" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66305:66600" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66324:66585" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66387:66565" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66427:66531" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66448:66509" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66650:66977" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66669:66962" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66764:66942" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66804:66908" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="66825:66886" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67028:67293" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67047:67278" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67080:67258" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67120:67224" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67141:67202" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67336:67642" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67355:67627" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67429:67607" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67469:67573" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67490:67551" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67693:68014" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67712:67999" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67801:67979" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67841:67945" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="67862:67923" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68049:68355" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68068:68340" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68142:68320" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68182:68286" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68203:68264" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68407:68727" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68426:68712" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68514:68692" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68554:68658" ph="..." />
+                <marker date="1494693370890" expanded="true" signature="68575:68636" ph="..." />
               </folding>
             </state>
           </provider>
@@ -297,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -331,16 +252,6 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WikiIndexingSearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="WikiIndexingSearch" />
@@ -893,15 +804,16 @@
       <workItem from="1492965786780" duration="804000" />
       <workItem from="1492968069185" duration="122000" />
       <workItem from="1494349045475" duration="1296000" />
-      <workItem from="1494690725601" duration="2254000" />
+      <workItem from="1494690725601" duration="2789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16668000" />
+    <option name="totallyTimeSpent" value="17203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -918,7 +830,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -951,7 +863,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/data.txt" />
     <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1144,51 +1055,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8687">
-          <caret line="511" column="57" lean-forward="false" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
+        <state relative-caret-position="7293">
+          <caret line="429" column="57" lean-forward="false" selection-start-line="429" selection-start-column="57" selection-end-line="429" selection-end-column="57" />
           <folding>
-            <marker date="1494693005050" expanded="true" signature="192:214" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75640:75657" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75640:75675" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75640:75688" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75640:75703" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75738:78256" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75751:78241" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75805:76100" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75824:76085" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75887:76065" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75927:76031" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="75948:76009" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76150:76477" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76169:76462" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76264:76442" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76304:76408" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76325:76386" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76528:76793" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76547:76778" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76580:76758" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76620:76724" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76641:76702" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76836:77142" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76855:77127" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76929:77107" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76969:77073" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="76990:77051" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77193:77514" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77212:77499" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77301:77479" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77341:77445" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77362:77423" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77549:77855" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77568:77840" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77642:77820" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77682:77786" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77703:77764" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77907:78227" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="77926:78212" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="78014:78192" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="78054:78158" ph="..." />
-            <marker date="1494693005050" expanded="true" signature="78075:78136" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66140:66157" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66140:66175" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66140:66188" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66140:66203" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66238:68756" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66251:68741" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66305:66600" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66324:66585" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66387:66565" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66427:66531" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66448:66509" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66650:66977" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66669:66962" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66764:66942" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66804:66908" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="66825:66886" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67028:67293" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67047:67278" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67080:67258" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67120:67224" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67141:67202" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67336:67642" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67355:67627" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67429:67607" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67469:67573" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67490:67551" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67693:68014" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67712:67999" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67801:67979" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67841:67945" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="67862:67923" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68049:68355" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68068:68340" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68142:68320" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68182:68286" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68203:68264" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68407:68727" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68426:68712" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68514:68692" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68554:68658" ph="..." />
+            <marker date="1494693370890" expanded="true" signature="68575:68636" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1248,6 +1158,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1256,10 +1174,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
