@@ -5,6 +5,8 @@ import java.io.FileFilter;
 
 /**
  * Created by Genius Doan on 4/20/2017.
+ *
+ * This class is for filtering text files
  */
 public class TextFileFilter implements FileFilter {
 

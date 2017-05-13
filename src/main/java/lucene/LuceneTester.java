@@ -10,6 +10,7 @@ import java.io.IOException;
 /**
  * Created by Genius Doan on 4/20/2017.
  * Use to test feature of other class.
+ * Use it as a tester class. Write more functions to test
  */
 public class LuceneTester {
 
@@ -18,26 +19,37 @@ public class LuceneTester {
     Indexer indexer;
     Searcher searcher;
 
+    /*
+    Create indexing files for using to search
+     */
     public void createIndex() throws IOException {
         indexer = new Indexer(indexDir);
-        int numIndexed;
+        int indexedCount;
         long startTime = System.currentTimeMillis();
-        numIndexed = indexer.createIndex(dataDir, new TextFileFilter());
+
+        indexedCount = indexer.createIndex(dataDir, new TextFileFilter());
         long endTime = System.currentTimeMillis();
         indexer.close();
-        System.out.println(numIndexed+" File indexed, time taken: "
-                +(endTime-startTime)+" ms");
+
+        System.out.println(indexedCount + " File indexed, time taken: "
+                + (endTime - startTime) + " ms");
     }
 
-    public void search(String searchQuery) throws IOException, ParseException {
-        searcher = new Searcher(indexDir);
+    /*
+    * Create indexing files for using to search
+    *
+    * @param searchQuery the query of user
+    * @param property property name of which you want to search
+    */
+    public void search(String searchQuery, String property) throws IOException, ParseException {
+        searcher = new Searcher(indexDir, property);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
         long endTime = System.currentTimeMillis();
 
         System.out.println(hits.totalHits +
                 " documents found. Time :" + (endTime - startTime));
-        for(ScoreDoc scoreDoc : hits.scoreDocs) {
+        for (ScoreDoc scoreDoc : hits.scoreDocs) {
             Document doc = searcher.getDocument(scoreDoc);
             System.out.println("File: "
                     + doc.get(LuceneConstants.FILE_PATH));
@@ -46,13 +58,12 @@ public class LuceneTester {
         searcher.close();
     }
 
-    public void setDataDirectory(String path)
-    {
+    //Helper
+    public void setDataDirectory(String path) {
         this.dataDir = path;
     }
 
-    public void setIndexDirectory(String path)
-    {
+    public void setIndexDirectory(String path) {
         this.indexDir = path;
     }
 }

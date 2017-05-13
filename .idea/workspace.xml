@@ -2,15 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f11130-40c0-49c7-be07-41cc938457c5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lucene-analyzers-common-6.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lucene-core-6.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lucene-demo-6.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lucene-queryparser-6.5.0.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/lucene-core-3.6.0.jar" afterPath="$PROJECT_DIR$/libs/lucene-core-3.6.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/lucene-queryparser-3.6.2.jar" afterPath="$PROJECT_DIR$/libs/lucene-queryparser-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lucene_core_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lucene_core_3_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/pending_segments_5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/res/index/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/data/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_0.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/_2.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WikiIndexingSearch/main/res/indexed/segments_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/data/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_0.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/_2.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/res/indexed/segments_4" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WikiIndexingSearch.iml" afterPath="$PROJECT_DIR$/WikiIndexingSearch.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" afterPath="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +97,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LuceneTester.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lucene_core_3_6_0.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/libraries/lucene_core_3_6_0.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,8 +110,78 @@
       <file leaf-file-name="WikiIndexingSearch.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WikiIndexingSearch.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="0">
               <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFileFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="105" column="37" lean-forward="false" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LuceneConstants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LuceneTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -61,50 +190,51 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2104">
-              <caret line="358" column="57" lean-forward="false" selection-start-line="358" selection-start-column="57" selection-end-line="358" selection-end-column="57" />
+            <state relative-caret-position="8687">
+              <caret line="511" column="57" lean-forward="false" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
               <folding>
-                <marker date="1494341548866" expanded="true" signature="74088:74105" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74088:74123" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74088:74136" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74088:74151" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74186:76704" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74199:76689" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74253:74548" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74272:74533" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74335:74513" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74375:74479" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74396:74457" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74598:74925" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74617:74910" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74712:74890" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74752:74856" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74773:74834" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74976:75241" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="74995:75226" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75028:75206" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75068:75172" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75089:75150" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75284:75590" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75303:75575" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75377:75555" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75417:75521" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75438:75499" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75641:75962" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75660:75947" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75749:75927" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75789:75893" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75810:75871" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="75997:76303" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76016:76288" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76090:76268" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76130:76234" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76151:76212" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76355:76675" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76374:76660" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76462:76640" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76502:76606" ph="..." />
-                <marker date="1494341548866" expanded="true" signature="76523:76584" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="192:214" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75640:75657" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75640:75675" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75640:75688" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75640:75703" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75738:78256" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75751:78241" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75805:76100" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75824:76085" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75887:76065" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75927:76031" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="75948:76009" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76150:76477" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76169:76462" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76264:76442" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76304:76408" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76325:76386" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76528:76793" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76547:76778" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76580:76758" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76620:76724" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76641:76702" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76836:77142" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76855:77127" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76929:77107" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76969:77073" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="76990:77051" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77193:77514" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77212:77499" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77301:77479" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77341:77445" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77362:77423" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77549:77855" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77568:77840" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77642:77820" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77682:77786" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77703:77764" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77907:78227" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="77926:78212" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="78014:78192" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="78054:78158" ph="..." />
+                <marker date="1494693005050" expanded="true" signature="78075:78136" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,14 +288,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" />
         <option value="$PROJECT_DIR$/.idea/libraries/lucene_core_3_6_0.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lucene/Indexer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lucene/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
       </list>
     </option>
   </component>
@@ -177,7 +308,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -195,6 +327,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +364,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -241,12 +383,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-queryparser-3.6.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -259,25 +405,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-3.6.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lucene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/lucene-queryparser-3.6.2.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/1412363_1412477/Source Code/WikiIndexingSearch" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -285,15 +437,16 @@
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MyPC\Documents\GitHub\WikiIndexingSearch\src\main\res" />
-      <recent name="$PROJECT_DIR$/src/main/res/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\JAVA\WikiIndexingSearch\src\main\res" />
+      <recent name="D:\Coding\JAVA\WikiIndexingSearch\src\main\java" />
       <recent name="D:\Coding\JAVA\WikiIndexingSearch\libs" />
       <recent name="C:\Users\MyPC\Documents\GitHub\WikiIndexingSearch\src\main\res\data" />
       <recent name="$PROJECT_DIR$/src/main/java/lucene" />
-      <recent name="$PROJECT_DIR$/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MyPC\Documents\GitHub\WikiIndexingSearch\src\main\res" />
+      <recent name="$PROJECT_DIR$/src/main/res/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -739,34 +892,34 @@
       <workItem from="1492786165610" duration="2534000" />
       <workItem from="1492965786780" duration="804000" />
       <workItem from="1492968069185" duration="122000" />
+      <workItem from="1494349045475" duration="1296000" />
+      <workItem from="1494690725601" duration="2254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11306000" />
+    <option name="totallyTimeSpent" value="16668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5237316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25265554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -774,33 +927,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5252366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25265554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +941,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -818,31 +951,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="82" lean-forward="false" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/data.txt" />
-    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <marker date="1494340095666" expanded="true" signature="1727:1872" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="1931:2088" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="2187:2700" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -850,9 +965,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,24 +989,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -906,9 +1006,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,11 +1014,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <marker date="1494340095666" expanded="true" signature="1727:1872" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="1931:2088" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="2187:2700" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,18 +1031,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/document/Field.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -957,20 +1044,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/index/IndexWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="634" column="16" lean-forward="false" selection-start-line="634" selection-start-column="16" selection-end-line="634" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/index/IndexWriter.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -979,22 +1054,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <marker date="1494340095666" expanded="true" signature="1727:1872" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="1931:2088" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="2187:2700" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,9 +1067,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,24 +1091,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1058,9 +1108,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,103 +1116,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <marker date="1494340095666" expanded="true" signature="1727:1872" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="1931:2088" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="2187:2700" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class" />
     <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/store/FSDirectory.class" />
     <entry file="jar://$PROJECT_DIR$/libs/lucene-core-6.5.0.jar!/org/apache/lucene/document/Field.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/data.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/IndexFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/res/data/28.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <marker date="1494340095666" expanded="true" signature="1727:1872" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="1931:2088" ph="{...}" />
-            <marker date="1494340095666" expanded="true" signature="2187:2700" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/data/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/SearchFiles.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/data/data.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/res/data/21.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WikiIndexingSearch.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="0">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
@@ -1172,50 +1144,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2104">
-          <caret line="358" column="57" lean-forward="false" selection-start-line="358" selection-start-column="57" selection-end-line="358" selection-end-column="57" />
+        <state relative-caret-position="8687">
+          <caret line="511" column="57" lean-forward="false" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
           <folding>
-            <marker date="1494341548866" expanded="true" signature="74088:74105" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74088:74123" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74088:74136" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74088:74151" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74186:76704" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74199:76689" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74253:74548" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74272:74533" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74335:74513" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74375:74479" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74396:74457" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74598:74925" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74617:74910" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74712:74890" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74752:74856" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74773:74834" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74976:75241" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="74995:75226" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75028:75206" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75068:75172" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75089:75150" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75284:75590" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75303:75575" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75377:75555" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75417:75521" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75438:75499" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75641:75962" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75660:75947" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75749:75927" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75789:75893" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75810:75871" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="75997:76303" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76016:76288" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76090:76268" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76130:76234" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76151:76212" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76355:76675" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76374:76660" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76462:76640" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76502:76606" ph="..." />
-            <marker date="1494341548866" expanded="true" signature="76523:76584" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="192:214" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75640:75657" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75640:75675" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75640:75688" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75640:75703" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75738:78256" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75751:78241" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75805:76100" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75824:76085" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75887:76065" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75927:76031" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="75948:76009" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76150:76477" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76169:76462" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76264:76442" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76304:76408" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76325:76386" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76528:76793" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76547:76778" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76580:76758" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76620:76724" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76641:76702" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76836:77142" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76855:77127" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76929:77107" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76969:77073" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="76990:77051" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77193:77514" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77212:77499" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77301:77479" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77341:77445" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77362:77423" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77549:77855" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77568:77840" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77642:77820" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77682:77786" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77703:77764" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77907:78227" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="77926:78212" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="78014:78192" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="78054:78158" ph="..." />
+            <marker date="1494693005050" expanded="true" signature="78075:78136" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1228,13 +1201,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/TextFileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Indexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="29">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="105" column="37" lean-forward="false" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lucene/LuceneConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
